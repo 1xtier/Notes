@@ -1,3 +1,4 @@
+![alt text](img/img.png)
 # Настройка ansible для работы с bastion сервером
 Настройка ** ssh/config**
 ```ini
