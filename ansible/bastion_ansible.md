@@ -13,7 +13,7 @@ Host test1
 ```
 jumphost Это через какой сервер Ansible пойдет на удаленные хосты!\
 test1 Это конечный сервер куда нам нужно достучаться!\
-Настройка **absible/inventory**
+Настройка **ansible/inventory**
 ```ini
 test1 ansible_ssh_host=test1 ansible_ssh_port=22
 test2 ansible_ssh_host=test2 ansible_ssh_port=22
