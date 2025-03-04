@@ -3,7 +3,7 @@
   <img src="https://github.com/1xtier/Notes/blob/main/ansible/img/img.png?raw=true" />
 </p>
 
-### Настройка ** ssh/config**
+### Настройка ssh/config
 ```ini
 Host jumphost
     HostName 192.168.19.91
@@ -15,8 +15,8 @@ Host test1
     IdentityFile ~/.myconfig//id_ed25519
     ProxyJump jumphost
 ```
-jumphost Это через какой сервер Ansible пойдет на удаленные хосты!\
-test1 Это конечный сервер куда нам нужно достучаться!\
+* jumphost **Это через какой сервер Ansible пойдет на удаленные хосты!**
+* test1 **Это конечный сервер куда нам нужно достучаться!**
 ### Настройка **ansible/inventory**
 ```ini
 test1 ansible_ssh_host=test1 ansible_ssh_port=22
