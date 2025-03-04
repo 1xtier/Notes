@@ -15,8 +15,8 @@ Host test1
     IdentityFile ~/.myconfig//id_ed25519
     ProxyJump jumphost
 ```
-* jumphost **Это через какой сервер Ansible пойдет на удаленные хосты!**
-* test1 **Это конечный сервер куда нам нужно достучаться!**
+* **jumphost** - Это через какой сервер Ansible пойдет на удаленные хосты!
+* **test1** - Это конечный сервер куда нам нужно достучаться!
 ### Настройка **Inventory**
 ```ini
 test1 ansible_ssh_host=test1 ansible_ssh_port=22
