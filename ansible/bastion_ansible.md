@@ -1,6 +1,6 @@
 # Настройка ansible для работы с bastion сервером
 <p align="center">
-  <img src="img/img.png" />
+  <img src="https://github.com/1xtier/Notes/blob/main/ansible/img/img.png?raw=true" />
 </p>
 
 ### Настройка ** ssh/config**
