@@ -1,10 +1,9 @@
 # Настройка ansible для работы с bastion сервером
-***
 <p align="center">
   <img src="img/img.png" />
 </p>
-***
-Настройка ** ssh/config**
+
+### Настройка ** ssh/config**
 ```ini
 Host jumphost
     HostName 192.168.19.91
@@ -18,7 +17,7 @@ Host test1
 ```
 jumphost Это через какой сервер Ansible пойдет на удаленные хосты!\
 test1 Это конечный сервер куда нам нужно достучаться!\
-Настройка **ansible/inventory**
+### Настройка **ansible/inventory**
 ```ini
 test1 ansible_ssh_host=test1 ansible_ssh_port=22
 test2 ansible_ssh_host=test2 ansible_ssh_port=22
