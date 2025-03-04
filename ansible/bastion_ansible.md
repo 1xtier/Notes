@@ -1,5 +1,9 @@
-![alt text](img/img.png)
 # Настройка ansible для работы с bastion сервером
+***
+<p align="center">
+  <img src="img/img.png" />
+</p>
+***
 Настройка ** ssh/config**
 ```ini
 Host jumphost
